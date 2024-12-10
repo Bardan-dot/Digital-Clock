@@ -8,6 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     background: linear-gradient(145deg, #1e1e2f, #2e2e3f);
+    background-color:teal;
     color: #ffffff;
   }
 
