@@ -11,9 +11,13 @@ function updateClock() {
   const gate=date.getDate();
   const mahina=months[date.getMonth()];
 
-  const hour=date.getHours();
-  const minute=date.getMinutes();
-  const second=date.getSeconds();
+  let hour=date.getHours();
+  let minute=date.getMinutes();
+  let second=date.getSeconds();
+
+  hour=hour.toString().padStart(2,0);
+  second=second.toString().padStart(2,0);
+  minute = minute.toString().padStart(2,0);
 
   //showing data
   const outputtime=document.getElementById("digital-time");
