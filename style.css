@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(145deg, #1e1e2f, #2e2e3f);
+    color: #ffffff;
+  }
+
+  /* Wrapper */
+  .clock-wrapper {
+    text-align: center;
+    background: #212121;
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6), inset -3px -3px 8px #111;
+  }
+
+  /* Title */
+  .clock-title {
+    font-size: 2.5rem;
+    color: #00ffcc;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffaa;
+  }
+
+  /* Digital Clock Display */
+  .clock-display {
+    padding: 20px;
+    background: #2a2a3c;
+    border-radius: 15px;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5), 0 5px 15px rgba(0, 0, 0, 0.4);
+  }
+
+  #digital-time {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px #00ffaa, 0 0 20px #00ffcc;
+    color: #00ffcc;
+    margin-bottom: 10px;
+  }
+
+  #date-display {
+    font-size: 1.2rem;
+    color: #cccccc;
+    letter-spacing: 2px;
+  }
+s
